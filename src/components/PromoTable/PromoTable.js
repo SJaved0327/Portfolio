@@ -4,7 +4,7 @@ const PromoTable = () => (
 		<div className="row">
 
 	      <div className="col s4">
-	        content 1
+	        <a className="btn btn-floating btn-large cyan"><i className="material-icons"></i></a>
 	      </div>
 	      <div className="col s4">
 	        content 2
