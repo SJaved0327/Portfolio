@@ -9,7 +9,7 @@ const style = {
 const Nav = () => (
 	
 	<nav>
-    <div className="nav-wrapper">
+    <div className="nav-wrapper red lighten-3">
       <a href="/" className="brand-logo" style={style.logo}>sjj</a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li><a href="sass.html">Sass</a></li>
