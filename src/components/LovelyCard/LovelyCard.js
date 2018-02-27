@@ -15,7 +15,7 @@ const style = {
 const LovelyCard = () => (
 	<div className="card">
     <div className="card-content center">
-      <p>The quickest way to connect to someone is to learn <strong>3 lovely things</strong> about them. Pick a tab, any tab!</p>
+      <h5>The quickest way to connect to someone is to learn <strong>3 lovely things</strong> about them. Pick a tab, any tab!</h5>
     </div>
     <div className="card-tabs">
       <ul className="tabs tabs-fixed-width">
@@ -31,11 +31,10 @@ const LovelyCard = () => (
       		<div className="col s4 center">
       			<div style={style.lovelyBox}>
 	      			<i class="material-icons" style={style.lovelyIcons}>local_play</i>
-	      			<h5>FullStack Web Development</h5>
-	      			<p>Certification, Rutgers '18</p>
+	      			<h5>Theatre</h5>
 	      		</div>
       			<p style={style.justify}>
-      			To push myself personally and professionally, I completed a 6-month intensive certification program focusing on: JavaScript, jQuery, Node.js, Express, HTML5, CSS3, Bootstrap, Handlebars, React JS, API/JSON, MySQL, Sequelize, Firebase, MongoDB, Mongoose.
+      			To push myself personally and professionally, I completed a 6-month intensive certification program focusing on: JavaScript, jQuery, Node.js, Express, HTML5, CSS3, Bootstrap, Handlebars, React JS, API/JSON, MySQL, Sequelize, Firebase, MongoDB, Mongoose, and more.
       			</p>
       		</div>
 
@@ -73,7 +72,7 @@ const LovelyCard = () => (
 	      			<p>Certification, Rutgers '18</p>
 	      		</div>
       			<p style={style.justify}>
-      			To push myself personally and professionally, I completed a 6-month intensive certification program focusing on: JavaScript, jQuery, Node.js, Express, HTML5, CSS3, Bootstrap, Handlebars, React JS, API/JSON, MySQL, Sequelize, Firebase, MongoDB, Mongoose.
+      			To push myself personally and professionally, I completed a 6-month intensive certification program focusing on: JavaScript, jQuery, Node.js, Express, HTML5, CSS3, Bootstrap, Handlebars, React JS, API/JSON, MySQL, Sequelize, Firebase, MongoDB, Mongoose, and more.
       			</p>
       		</div>
 
@@ -120,7 +119,6 @@ const LovelyCard = () => (
       			<div style={style.lovelyBox}>
 	      			<i class="material-icons" style={style.lovelyIcons}>extension</i>
 	      			<h5>Problem Solving</h5>
-	      			<p>BA, Tufts University '14</p>
 	      		</div>
       			<p style={style.justify}>
       			The study of life span development has always fascinated me. My coursework focused on inequities in U.S. education through the lens of language acquisition, bilingual education, and public policy.
@@ -129,9 +127,8 @@ const LovelyCard = () => (
 
       		<div className="col s4 center">
 	      		<div style={style.lovelyBox}>
-	      			<i class="material-icons" style={style.lovelyIcons}>palette</i>
-	      			<h5>Art History</h5>
-	      			<p>BA, Tufts University '14</p>
+	      			<i class="material-icons" style={style.lovelyIcons}>attach_money</i>
+	      			<h5>Cost Reduction</h5>
       			</div>
       			<p style={style.justify}>
       			I am a medievalist at heart and studied Islamic portable objects and manuscripts. Many pieces could be considered early iterations of AR as they destabilize the eye and break the bonds of their own materiality. Shout out to muqarnas for making the finite seem infinite!

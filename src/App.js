@@ -10,9 +10,10 @@ import './App.css';
 const App = () => (
   <Router>
     <div>
-      {/* <Nav /> */}
+      <Nav />
         <div>
           <Route exact path="/" component={Main} />
+          
         </div>
       <Footer />
     </div>
