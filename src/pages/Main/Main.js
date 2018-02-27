@@ -17,14 +17,22 @@ const style = {
 	},
 	h1Thin: {
 		fontWeight: '100'
+	},
+	justify: {
+		textAlign: 'justify'
+	},
+	header: {
+		marginBottom: '30px',
+		marginTop: '30px'
 	}
 }
 
 const Main = () => (
 	<main className="container">
 		
-		<header>
-			<h1 className="center" style={style.h1Thin}><span style={style.h1Heavy}>S</span>ara <span style={style.h1Heavy}>J</span>oAnn <span style={style.h1Heavy}>J</span>aved</h1>
+		<header style={style.header}>
+			{/* <h1 className="center" style={style.h1Thin}><span style={style.h1Heavy}>S</span>ara <span style={style.h1Heavy}>J</span>oAnn <span style={style.h1Heavy}>J</span>aved</h1> */}
+			<h3 style={style.justify}> FullStack Developer on the rise with a passion for education, comedy, and subversive media. </h3>
 		</header>
 
 

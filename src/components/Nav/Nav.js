@@ -1,23 +1,24 @@
 import React from 'react';
 
 const style = {
-	logo: {
-		marginRight: '25px'
+	margin: {
+		marginRight: '25px',
+    marginLeft: '25px'
 	},
   icons: {
-    height: '50px',
-    padding: '0px'
+    fontSize: '2em'
   }
 }
 
 const Nav = () => (
 	 <nav>
-    <div className="nav-wrapper">
-      <a href="/" className="brand-logo right" style={style.logo}>sjj</a>
-      <ul id="nav-mobile" className="left hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+    <div className="nav-wrapper" style={style.margin}>
+      <a href="/" className="brand-logo left" style={style.logo}>SARAJAVED.</a>
+      <ul id="nav-mobile" className="right hide-on-med-and-down">
+        <li><a href="https://twitter.com/heyheysarajay" target="_blank"><div style={style.icons}><i class="fab fa-github-alt"></i></div></a></li>
+        <li><a href="https://twitter.com/heyheysarajay" target="_blank"><div style={style.icons}><i class="fab fa-linkedin-in"></i></div></a></li>
+        <li><a href="https://twitter.com/heyheysarajay" target="_blank"><div style={style.icons}><i class="fab fa-instagram"></i></div></a></li>
+        <li><a href="https://twitter.com/heyheysarajay" target="_blank"><div style={style.icons}><i class="fab fa-twitter"></i></div></a></li>
       </ul>
     </div>
   </nav>

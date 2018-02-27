@@ -15,7 +15,7 @@ const style = {
 const LovelyCard = () => (
 	<div className="card">
     <div className="card-content center">
-      <h5>The quickest way to connect to someone is to learn <strong>3 lovely things</strong> about them. Pick a tab, any tab!</h5>
+      <h5>FullStack Developer on the rise with a passion for education, comedy, and subversive media.</h5>
     </div>
     <div className="card-tabs">
       <ul className="tabs tabs-fixed-width">

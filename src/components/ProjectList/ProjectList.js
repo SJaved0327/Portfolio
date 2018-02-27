@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 
+
 const ProjectList = () => (
 
 	<section>
+
+		<h3 className="center">Applications Built</h3>
+		<br />
 
   	<div className="row">
   		
