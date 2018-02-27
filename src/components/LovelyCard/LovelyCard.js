@@ -9,13 +9,18 @@ const style = {
 	},
 	lovelyBox: {
 		height: '12rem'
-	}
+	},
+  lovelyCard: {
+    backgroundColor: '#ffffff',
+    marginTop: '3rem',
+    marginBottom: '3rem'
+  }
 }
 
 const LovelyCard = () => (
-	<div className="card">
+	<div className="card" style={style.lovelyCard}>
     <div className="card-content center">
-      <h5>FullStack Developer on the rise with a passion for education, comedy, and subversive media.</h5>
+      <h5>Knowing me, knowing you.</h5>
     </div>
     <div className="card-tabs">
       <ul className="tabs tabs-fixed-width">
@@ -24,7 +29,7 @@ const LovelyCard = () => (
         <li className="tab"><a href="#Work">Work</a></li>
       </ul>
     </div>
-    <div className="card-content pink lighten-5">
+    <div className="card-content">
       <div id="Interests">
 
       	<div className="row">
