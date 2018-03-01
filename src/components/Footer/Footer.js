@@ -1,5 +1,11 @@
 import React from 'react';
 
+const style = {
+  icons: {
+    fontSize: '2em'
+  }
+}
+
 const Footer = () => (
 	<footer className="page-footer red lighten-5">
 	  <div className="container">
@@ -11,18 +17,15 @@ const Footer = () => (
 	      <div className="col l4 offset-l2 s12">
 	        <h5 className="white-text">Contact</h5>
 	        <ul>
-	          <li><a className="grey-text text-darken-2" href="#!">Email: sara.joann.javed@gmail.com</a></li>
-	          <li><a className="grey-text text-darken-2" href="https://www.linkedin.com/in/sarajaved/">LinkedIn: linkedin.com/in/sarajaved/</a></li>
-	          <li><a className="grey-text text-darken-2" href="https://github.com/SJaved0327">GitHub: github.com/SJaved0327</a></li>
+	          <li><a href="https://github.com/SJaved0327" target="_blank"><div style={style.icons}><span className="grey-text text-darken-2"><i class="fab fa-github-alt"></i></span></div></a></li>
+		        <li><a href="https://www.linkedin.com/in/sarajaved/" target="_blank"><div style={style.icons}><span className="grey-text text-darken-2"><i class="fab fa-linkedin-in"></i></span></div></a></li>
+		        <li><a href="https://www.instagram.com/heyheysarajay/" target="_blank"><div style={style.icons}><span className="grey-text text-darken-2"><i class="fab fa-instagram"></i></span></div></a></li>
+		        <li><a href="https://twitter.com/heyheysarajay" target="_blank"><div style={style.icons}><span className="grey-text text-darken-2"><i class="fab fa-twitter"></i></span></div></a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </div>
 	  <div className="footer-copyright">
-	    <div className="container">
-	    © 2014 Copyright Text
-	    <a className="grey-text text-darken-2 right" href="#!">More Links</a>
-	    </div>
 	  </div>
 	</footer>
 )

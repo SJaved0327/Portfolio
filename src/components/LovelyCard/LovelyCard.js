@@ -20,7 +20,7 @@ const style = {
 const LovelyCard = () => (
 	<div className="card" style={style.lovelyCard}>
     <div className="card-content center">
-      <h5>Knowing me, knowing you.</h5>
+      <h5 id="knowing-title">Knowing me, knowing you.</h5>
     </div>
     <div className="card-tabs">
       <ul className="tabs tabs-fixed-width">
@@ -39,7 +39,7 @@ const LovelyCard = () => (
 	      			<h5>Theatre</h5>
 	      		</div>
       			<p style={style.justify}>
-      			To push myself personally and professionally, I completed a 6-month intensive certification program focusing on: JavaScript, jQuery, Node.js, Express, HTML5, CSS3, Bootstrap, Handlebars, React JS, API/JSON, MySQL, Sequelize, Firebase, MongoDB, Mongoose, and more.
+      			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       			</p>
       		</div>
 
@@ -49,7 +49,7 @@ const LovelyCard = () => (
 	      			<h5>New York Stories</h5>
 	      		</div>
       			<p style={style.justify}>
-      			Putting roots down in New York City has opened up an interest in stories about its people and places. Michael Cunningham is one of my favorite authors. 
+      			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       			</p>
       		</div>
 
@@ -59,7 +59,7 @@ const LovelyCard = () => (
 	      			<h5>Catfish</h5>
       			</div>
       			<p style={style.justify}>
-      			No one mentions this show casually - you either love it or hate it with every atom of your being. Does the show hinge on nothing more than a basic knowledge of Google Images and Facebook? Yes. Have I bought episodes on Amazon? Absolutely. 
+      			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       			</p>
       		</div>
 
@@ -74,7 +74,7 @@ const LovelyCard = () => (
       			<div style={style.lovelyBox}>
 	      			<i class="material-icons" style={style.lovelyIcons}>code</i>
 	      			<h5>FullStack Web Development</h5>
-	      			<p>Certification, Rutgers '18</p>
+	      			<p className="lovely-sub-title">Certification, Rutgers '18</p>
 	      		</div>
       			<p style={style.justify}>
       			To push myself personally and professionally, I completed a 6-month intensive certification program focusing on: JavaScript, jQuery, Node.js, Express, HTML5, CSS3, Bootstrap, Handlebars, React JS, API/JSON, MySQL, Sequelize, Firebase, MongoDB, Mongoose, and more.
@@ -85,7 +85,7 @@ const LovelyCard = () => (
       			<div style={style.lovelyBox}>
 	      			<i class="material-icons" style={style.lovelyIcons}>child_care</i>
 	      			<h5>Child Development</h5>
-	      			<p>BA, Tufts University '14</p>
+	      			<p className="lovely-sub-title">BA, Tufts University '14</p>
 	      		</div>
       			<p style={style.justify}>
       			The study of life span development has always fascinated me. My coursework focused on inequities in U.S. education through the lens of language acquisition, bilingual education, and public policy.
@@ -96,7 +96,7 @@ const LovelyCard = () => (
 	      		<div style={style.lovelyBox}>
 	      			<i class="material-icons" style={style.lovelyIcons}>palette</i>
 	      			<h5>Art History</h5>
-	      			<p>BA, Tufts University '14</p>
+	      			<p className="lovely-sub-title">BA, Tufts University '14</p>
       			</div>
       			<p style={style.justify}>
       			I am a medievalist at heart and studied Islamic portable objects and manuscripts. Many pieces could be considered early iterations of AR as they destabilize the eye and break the bonds of their own materiality. Shout out to muqarnas for making the finite seem infinite!
@@ -116,7 +116,7 @@ const LovelyCard = () => (
 	      			<h5>Cultivating Relationships</h5>
 	      		</div>
       			<p style={style.justify}>
-      			To push myself personally and professionally, I completed a 6-month intensive certification program focusing on: JavaScript, jQuery, Node.js, Express, HTML5, CSS3, Bootstrap, Handlebars, React JS, API/JSON, MySQL, Sequelize, Firebase, MongoDB, Mongoose.
+      			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       			</p>
       		</div>
 
@@ -126,7 +126,7 @@ const LovelyCard = () => (
 	      			<h5>Problem Solving</h5>
 	      		</div>
       			<p style={style.justify}>
-      			The study of life span development has always fascinated me. My coursework focused on inequities in U.S. education through the lens of language acquisition, bilingual education, and public policy.
+      			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       			</p>
       		</div>
 
@@ -136,7 +136,7 @@ const LovelyCard = () => (
 	      			<h5>Cost Reduction</h5>
       			</div>
       			<p style={style.justify}>
-      			I am a medievalist at heart and studied Islamic portable objects and manuscripts. Many pieces could be considered early iterations of AR as they destabilize the eye and break the bonds of their own materiality. Shout out to muqarnas for making the finite seem infinite!
+      			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
       			</p>
       		</div>
 

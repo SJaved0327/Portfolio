@@ -1,3 +1,42 @@
-.tabs .indicator {
-    font-color: #ec407a;
+
+p {
+    /*font-family: 'Nanum Pen Script', cursive;*/
+		/*font-family: 'Open Sans', sans-serif;*/
+		/*font-family: 'Nanum Gothic', sans-serif;*/
+		font-family: 'Nanum Gothic Coding', monospace;
+  }
+
+h5 {
+    /*font-family: 'Nanum Pen Script', cursive;*/
+		/*font-family: 'Open Sans', sans-serif;*/
+		/*font-family: 'Nanum Gothic', sans-serif;*/
+		font-weight: bolder;
+		font-family: 'Nanum Gothic Coding', monospace;
+  }
+
+.lovely-sub-title {
+    /*font-family: 'Nanum Pen Script', cursive;*/
+		font-family: 'Open Sans', sans-serif;
+		/*font-family: 'Nanum Gothic', sans-serif;*/
+		/*font-weight: bolder;*/
+		/*font-family: 'Nanum Gothic Coding', monospace;*/
+  }
+
+h4 {
+	font-family: 'Nanum Gothic Coding', monospace;
 }
+
+.brand-logo {
+	/*font-family: 'Nanum Gothic Coding', monospace;*/
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+.tabs .indicator {
+  font-color: #ec407a;
+}
+
+/*font-family: 'Nanum Pen Script', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Gothic Coding', monospace;*/

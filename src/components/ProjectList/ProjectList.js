@@ -5,7 +5,7 @@ const ProjectList = () => (
 
 	<section>
 
-		<h3 className="center">Applications Built</h3>
+		<h4 className="center">Applications Built</h4>
 		<br />
 
   	<div className="row">

@@ -38,11 +38,10 @@ const Main = () => (
 			</div>
 			<div className="col s10 m10">
 				<header style={style.header}>
-					<div className="divider"></div>
-					{/* <h1 className="center" style={style.h1Thin}><span style={style.h1Heavy}>S</span>ara <span style={style.h1Heavy}>J</span>oAnn <span style={style.h1Heavy}>J</span>aved</h1> */}
-					<h4 className="center"> FullStack Developer on the rise with a passion for</h4>
+				<div className="divider"></div>
+					<h4 className="center">FullStack Developer with a passion for</h4>
 					<h4 className="center">education, comedy, and subversive media.</h4>
-					<div className="divider"></div>
+					
 				</header>
 			</div>
 			<div className="col s1 m1">
