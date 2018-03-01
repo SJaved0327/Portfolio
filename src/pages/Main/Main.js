@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect, Link } from "react-router-dom";
 
 import LovelyCard from '../../components/LovelyCard'
 import ProjectList from '../../components/ProjectList'
@@ -63,15 +63,17 @@ const Main = () => (
 		<div className="row">
 			<div className="col s1 m1">
 			</div>
-			<div className="col s10 m10">
-				<Switch>
-					<Route exact path="/" component={ProjectList} />
-					{/* <Route exact path="/bright-kids-portal-v2" component={ProjectList} /> */}
-					{/* <Route exact path="/trivia-and-the-city" component={ProjectList} /> */}
-					{/* <Route exact path="/drag-guessing-game" component={ProjectList} /> */}
-					{/* <Route exact path="/queer-queries" component={ProjectList} /> */}
-				</Switch>
-			</div>
+			<Router>
+				<div className="col s10 m10">
+					<Switch>
+						<Route exact path="/" component={ProjectList} />
+						<Route exact path="/bright-kids-portal-v2" component={ProjectList} />
+						<Route path="/trivia-and-the-city" component={LovelyCard} />
+						<Route exact path="/drag-guessing-game" component={ProjectList} />
+						<Route exact path="/queer-queries" component={ProjectList} />
+					</Switch>
+				</div>
+			</Router>
 			<div className="col s1 m1">
 			</div>
 		</div>

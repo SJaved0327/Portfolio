@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch, Redirect, Link } from "react-router-dom";
 
 
 const ProjectList = () => (
@@ -17,7 +18,7 @@ const ProjectList = () => (
 	        <div className="card-image">
 	          <img src="./ScreenShots/BKPortal_Evaluations.png
 	          " alt="Project 1" />
-	          <a className="btn-floating halfway-fab waves-effect waves-light cyan lighten-2 pulse"><i className="material-icons">chevron_right</i></a>
+	          <Link to="/bright-kids-portal-v2"><a className="btn-floating halfway-fab waves-effect waves-light cyan lighten-2 pulse"><i className="material-icons">chevron_right</i></a></Link>
 	        </div>
 
 	        <div className="card-content">
@@ -34,7 +35,7 @@ const ProjectList = () => (
 	        <div className="card-image">
 	          <img src="./ScreenShots/Trivia_Overview.png
 	          " alt="Project 2" />
-	          <a className="btn-floating halfway-fab waves-effect waves-light cyan lighten-2 pulse"><i className="material-icons">chevron_right</i></a>
+	          <Link to="/trivia-and-the-city"><a className="btn-floating halfway-fab waves-effect waves-light cyan lighten-2 pulse"><i className="material-icons">chevron_right</i></a></Link>
 	        </div>
 
 	        <div className="card-content">
@@ -54,7 +55,7 @@ const ProjectList = () => (
 		      <div className="card-image">
 		        <img src="./ScreenShots/DragRace_Overview.png
 		        " alt="Project 3" />
-		        <a className="btn-floating halfway-fab waves-effect waves-light cyan lighten-2 pulse"><i className="material-icons">chevron_right</i></a>
+		        <Link to="/drag-guessing-game"><a className="btn-floating halfway-fab waves-effect waves-light cyan lighten-2 pulse"><i className="material-icons">chevron_right</i></a></Link>
 		      </div>
 
 		      <div className="card-content">
@@ -71,7 +72,7 @@ const ProjectList = () => (
 		      <div className="card-image">
 		        <img src="./ScreenShots/Queries_Articles.png
 		        " alt="Project 4" />
-		        <a className="btn-floating halfway-fab waves-effect waves-light cyan lighten-2 pulse"><i className="material-icons">chevron_right</i></a>
+		        <Link to="/queer-queries"><a className="btn-floating halfway-fab waves-effect waves-light cyan lighten-2 pulse"><i className="material-icons">chevron_right</i></a></Link>
 		      </div>
 
 		      <div className="card-content">
