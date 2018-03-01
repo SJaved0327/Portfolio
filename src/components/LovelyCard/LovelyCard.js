@@ -20,7 +20,7 @@ const style = {
 const LovelyCard = () => (
 	<div className="card" style={style.lovelyCard}>
     <div className="card-content center">
-      <h5 id="knowing-title">Knowing me, knowing you.</h5>
+      <h5>Knowing me, knowing you.</h5>
     </div>
     <div className="card-tabs">
       <ul className="tabs tabs-fixed-width">
