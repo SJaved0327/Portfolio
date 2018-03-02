@@ -40,6 +40,9 @@ a {
   font-color: #ec407a;
 }
 
+#headshot {
+	border-radius: 5%;
+}
 /*font-family: 'Nanum Pen Script', cursive;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Nanum Gothic', sans-serif;

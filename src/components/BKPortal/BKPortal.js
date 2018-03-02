@@ -9,7 +9,7 @@ const style = {
 	}
 }
 
-const Project = () => (
+const BKPortal = () => (
 
 	<section>
 
@@ -35,11 +35,14 @@ const Project = () => (
 			   				<p>A regimagining of Bright Kids Portal, a tool families use to engage student progress data online.</p><br />
 			   				<p>Bright Kids is a Manhattan-based education company focused on test prep for admissions and achievement exams. Data is at the core of the company's business model, using session reports and assessment results to build customized curricula.  
 			   				The problem? The current client-facing application is difficult to navigate, its functionality is buried in the UI, and student data is tortured into pdfs that are served statically in a painfully slow manner.</p><br />
-			   				<p>Wireframes were created on Balsamiq and the branded color palette was generated on Coolors. Now every client engaging the application engages a UI that is branded and feels specific to the company. The front end is built in React JS to simplify the UI through repeated elements and render a dyanmic UI that serves student data quickly in the browser. Student data populates dynamically through React JS and families can hover over the central chart to learn more about their student's performance. 
-			   				The back end is built with Node.js, using the Express framework. Axios handles API routing and Sequelize queries interact with a simple MySQL database to pull family, student, assessment and reports data. A relational database was used to clearly delineate the relationships between data tables (ex: a family id must exist before a student can be created) and clarify data flow.</p>
+			   				<p>Wireframes were created on Balsamiq and the branded color palette was generated on Coolors. Now every client engaging the application engages a UI that is branded and feels specific to the company. The front end is built in React JS to simplify the UI through repeated elements and render a dyanmic UI that serves student data quickly in the browser. Student data is presented in React Charts components and families can hover over the central chart to learn more about their student's performance. 
+			   				The back end is built with Node.js, utilizing the Express framework. Axios handles API routing and Sequelize queries interact with a simple MySQL database to pull family, student, assessment and reports data. A relational database was used to clearly delineate the relationships between data tables (ex: a family id must exist before a student can be created) and clarify data flow.</p>
 			   				<br />
 			   				<p><a href="https://warm-wildwood-27556.herokuapp.com/select_path" target="_blank" className="center cyan-text">Deployed on Heroku, check it out!</a></p>
 			   				<br />
+			   				<div className="divider" style={style.divider}></div>
+					    		<p><i class="fas fa-wrench"></i> React JS, React Router, Node.js, Express, MySQL, Sequelize, Axios, React Charts, and Bootstrap.</p>
+					    	<br />
 			   				<div className="row" style={style.divider}>
 			   					<div className="col s12">
 			   						<div className="card-image z-depth-1">
@@ -51,7 +54,7 @@ const Project = () => (
 					    	<div className="row" style={style.divider}>
 					    		<div className="col s6">
 							    	<div className="card-image z-depth-1">
-						  				<img src="./ScreenShots/BKPortal_LandingPage_01.png
+						  				<img src="./ScreenShots/BKPortal_SelectPath.png
 							          " alt="Project 1" width="400px" />
 						        </div>
 						      </div>
@@ -63,10 +66,6 @@ const Project = () => (
 						      </div>
 					    	</div>	
 					    
-					    	<br />
-					    	<div className="divider" style={style.divider}></div>
-					    		<p>React JS, React Router, Node.js, Express, MySQL, Sequelize, Axios, React Charts, and Bootstrap. </p>
-
 			   			</div>
 			   			<div className="col s1 m1">
 			   			</div>
@@ -87,7 +86,7 @@ const Project = () => (
 
 )
 
-export default Project; 
+export default BKPortal; 
 
 
 

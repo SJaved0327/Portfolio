@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Route, Switch, Redirect, Link } from "react-ro
 
 import LovelyCard from '../../components/LovelyCard'
 import ProjectList from '../../components/ProjectList'
-import Project from '../../components/Project'
+import BKPortal from '../../components/BKPortal'
+import TriviaGame from '../../components/TriviaGame'
 
 
 const style = {
@@ -68,8 +69,8 @@ const Main = () => (
 				<div className="col s10 m10">
 					<Switch>
 						<Route exact path="/" component={ProjectList} />
-						<Route exact path="/bright-kids-portal-v2" component={Project} />
-						<Route path="/trivia-and-the-city" component={LovelyCard} />
+						<Route exact path="/bright-kids-portal-v2" component={BKPortal} />
+						<Route path="/trivia-and-the-city" component={TriviaGame} />
 						<Route exact path="/drag-guessing-game" component={ProjectList} />
 						<Route exact path="/queer-queries" component={ProjectList} />
 					</Switch>
