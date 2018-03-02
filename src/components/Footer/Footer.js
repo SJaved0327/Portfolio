@@ -16,7 +16,15 @@ const Footer = () => (
 	      			<img src="../../../images/gray_brand_logo.png" alt="logo of sara javed name" height="75px" />
 	      		</div>
 	      	</div>
-	        <p className="grey-text text-darken-2">Thanks for visiting!</p>
+	      	<div className="row">
+	      		<div className="col l6 s6 center">
+	      			<img alt="author headshot" src="../../../images/IMG_1928.JPG" height="200px" />
+	      		</div>
+	      		<div className="col l6 s6 center">
+	      			<p className="grey-text text-darken-2">Thanks for visiting!</p>
+	      		</div>
+	      	</div>
+	        
 	      </div>
 	      <div className="col l4 offset-l2 s12">
 	        <h5 className="grey-text text-darken-2">Contact</h5>
