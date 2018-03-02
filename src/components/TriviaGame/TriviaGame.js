@@ -20,7 +20,7 @@ const BKPortal = () => (
   		
   			<div className="card">
 
-  			 <div className="card-content center cyan lighten-2">
+  			 <div className="card-content center pink lighten-2">
 		      <h5>Trivia and the City</h5>
 			   </div>
 			   <div className="divider"></div>
@@ -36,29 +36,34 @@ const BKPortal = () => (
 			   				<p>This simple web application is built with jQuery. When the player clicks the start button, the game logic is initiated and a 30-second timer begins. As the play selects their answers, they accrue 1 point for each correct answer chosen. The final score is broken down into Correct, Incorrect, and Unanswered (to account for the player not finishing in time).</p><br />
 			   				<p>When the game ends, a different gif is rendered on the page based on the user's score range. I wish to build on this app using the GIPHY API to randomize the final gifs and add a level of unpredictability.</p>
 			   				<br />
-			   				<p><a href="https://sjaved0327.github.io/TriviaGame/" target="_blank" className="center cyan-text">Deployed on Git Pages, check it out!</a></p>
+			   				<p><a href="https://sjaved0327.github.io/TriviaGame/" target="_blank" className="center pink-text text-lighten-2">Deployed on Git Pages, check it out!</a></p>
 			   				<br />
 			   				<div className="divider" style={style.divider}></div>
 					    		<p><i class="fas fa-wrench"></i> jQuery, Bootstrap </p>
 					    	<br />
 			   				<div className="row" style={style.divider}>
-			   					<div className="col s12">
+			   					<div className="col s12 m12">
 			   						<div className="card-image z-depth-1">
-						  				<img src="./ScreenShots/BKPortal_LandingPage_01.png
+						  				<img src="./ScreenShots/TriviaGame_Header.png
 							          " alt="Project 1" width="400px" />
 						        </div>
 			   					</div>
 			   				</div>
+
 					    	<div className="row" style={style.divider}>
-					    		<div className="col s6">
+					    		<div className="col s12 m8">
 							    	<div className="card-image z-depth-1">
-						  				<img src="./ScreenShots/BKPortal_SelectPath.png
+						  				<img src="./ScreenShots/TriviaGame_Div.png
 							          " alt="Project 1" width="400px" />
 						        </div>
 						      </div>
-						      <div className="col s6">
+						      <div className="col s6 m4">
 						        <div className="card-image z-depth-1">
-						  				<img src="./ScreenShots/BKPortal_Evaluations.png
+						  				<img src="./ScreenShots/SATC_Giphy.png
+							          " alt="Project 1" width="400px" />
+						        </div>
+						        <div className="card-image z-depth-1">
+						  				<img src="./ScreenShots/SATC_GiphyDresses.png
 							          " alt="Project 1" width="400px" />
 						        </div>
 						      </div>

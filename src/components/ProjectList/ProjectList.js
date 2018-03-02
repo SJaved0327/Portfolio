@@ -11,7 +11,7 @@ const ProjectList = () => (
 
   	<div className="row">
   		
-  		<div className="col s6 m6">
+  		<div className="col s12 m6">
 
   			{/* Project 1 */}
 	      <div className="card">	      	
@@ -28,7 +28,7 @@ const ProjectList = () => (
 
 	    </div>
 
-	   	<div className="col s6 m6">
+	   	<div className="col s12 m6">
 
 	   		{/* Project 2 */}
 	      <div className="card">	      	
@@ -48,7 +48,7 @@ const ProjectList = () => (
 	  </div>
 
 	  <div className="row">
-	  	<div className="col s6 m6">
+	  	<div className="col s12 m6">
 
 		    {/* Project 3 */}
 		    <div className="card">
@@ -65,7 +65,7 @@ const ProjectList = () => (
 
 	    </div>
 
-	    <div className="col s6 m6">
+	    <div className="col s12 m6">
 
 		  	{/* Project 4 */}
 		    <div className="card">
