@@ -113,10 +113,10 @@ const LovelyCard = () => (
       		<div className="col s4 center">
       			<div style={style.lovelyBox}>
 	      			<i class="material-icons" style={style.lovelyIcons}>local_florist</i>
-	      			<h5>Cultivating Relationships</h5>
+	      			<h5>Client Engagement</h5>
 	      		</div>
       			<p style={style.justify}>
-      			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      			I love engaging clients, whether it's road mapping academic goals or running into each other at the grocery store. When I develop teams, I emphasize being 'gracious': help each other and pay it forward. I believe that a collaborative and respectful company culture yields stronger client engagement.
       			</p>
       		</div>
 
@@ -126,7 +126,7 @@ const LovelyCard = () => (
 	      			<h5>Problem Solving</h5>
 	      		</div>
       			<p style={style.justify}>
-      			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      			Challenges are exciting! They indicate that you are charting new territory. Cycilng between office operations, team development, and client management has honed my ability to respond to challenges quickly and effectively. I have enjoyed the opportunity to dig deep and build at a small company where my role is flexible and allows me to problem-solve creatively.
       			</p>
       		</div>
 
@@ -136,7 +136,7 @@ const LovelyCard = () => (
 	      			<h5>Cost Reduction</h5>
       			</div>
       			<p style={style.justify}>
-      			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      			Working closely with my CEO, I have initiated operational and staffing cost cuts, decreasing general bloat while increasing productivity. I strongly believe that an effective team is a small team where individuals can take ownership over their work and demonstrate their value within the company.    
       			</p>
       		</div>
 
@@ -148,5 +148,8 @@ const LovelyCard = () => (
   </div>
 
 )
+
+
+
 
 export default LovelyCard;

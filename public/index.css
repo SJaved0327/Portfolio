@@ -6,7 +6,7 @@ p {
 		font-family: 'Nanum Gothic Coding', monospace;
   }
 
-h5 {
+h5, h6 {
     /*font-family: 'Nanum Pen Script', cursive;*/
 		/*font-family: 'Open Sans', sans-serif;*/
 		/*font-family: 'Nanum Gothic', sans-serif;*/
@@ -43,6 +43,12 @@ a {
 #headshot {
 	border-radius: 5%;
 }
+
+.hoverIcons:hover {
+	color: #4dd0e1;
+}
+
+
 /*font-family: 'Nanum Pen Script', cursive;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Nanum Gothic', sans-serif;

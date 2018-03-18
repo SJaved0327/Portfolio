@@ -6,6 +6,7 @@ import LovelyCard from '../../components/LovelyCard'
 import ProjectList from '../../components/ProjectList'
 import BKPortal from '../../components/BKPortal'
 import TriviaGame from '../../components/TriviaGame'
+import EduCard from '../../components/EduCard'
 
 
 const style = {
@@ -29,6 +30,9 @@ const style = {
 	},
 	LovelyCard: {
 		backgroundColor: '#ffebee'
+	},
+	lovelyIcons: {
+		fontSize: '2rem'
 	}
 }
 
@@ -53,11 +57,8 @@ const Main = () => (
 		<div className="row" style={style.LovelyCard}>
 			<div className="col s2 m2">
 			</div>
-			<div className="col s8 m8">
-				<div className="section">
-					<LovelyCard />
-				</div>
-			</div>
+			{/* Component toggles education experience in hero panel */}
+			<EduCard />
 			<div className="col s2 m2">
 			</div>
 		</div>
@@ -82,5 +83,12 @@ const Main = () => (
 
 	</main>
 )
+
+// const handleEduClick = (id) => {
+// 	document.getElementById("eduDiv").innerHTML = "";
+// 	document.getElementById("eduDiv").innerHTML(id);
+// }
+
+
 
 export default Main; 
