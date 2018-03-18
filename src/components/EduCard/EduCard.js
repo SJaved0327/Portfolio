@@ -52,7 +52,7 @@ class EduCard extends Component {
 				title: "BA, Tufts University '14",
 				text: "I am a medievalist at heart and studied Islamic portable objects and manuscripts. Many pieces could be considered early iterations of AR as they destabilize the eye and break the bonds of their own materiality. Shout out to muqarnas for making the finite seem infinite!"
 		}],
-		chosenTitle: ""
+		chosenText: "To push myself personally and professionally, I completed a 6-month intensive certification program focusing on: JavaScript, jQuery, Node.js, Express, HTML5, CSS3, Bootstrap, Handlebars, React JS, API/JSON, MySQL, Sequelize, Firebase, MongoDB, Mongoose, and more."
 	};
 
 	handleValueClick = index => {
