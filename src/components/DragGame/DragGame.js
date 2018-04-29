@@ -9,7 +9,7 @@ const style = {
 	}
 }
 
-const BKPortal = () => (
+const DragGame = () => (
 
 	<section>
 
@@ -84,4 +84,4 @@ const BKPortal = () => (
 
 )
 
-export default BKPortal; 
+export default DragGame; 
