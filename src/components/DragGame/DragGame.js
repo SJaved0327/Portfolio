@@ -33,13 +33,13 @@ const BKPortal = () => (
 			   			<div className="col s10 m10">
 
 			   				<p>A number-based guessing game with a theme that's just sickening!</p><br />
-			   				<p>The player must select style items (each worth a randomized amount of points) to accrue the right number of Drag Points needed to win the game. Getting the exact number of Drag Points needed makes you a winner, baby!</p><br />
-			   				<p>The frontend is styled through Bootstrap and the DOM is manipulated with jQuery.</p>
+			   				<p>This simple web application is built with jQuery. The game begins by displaying the target number of points that the player must match. The player selects style items, each worth a randomized amount of points, to accrue the right number of points needed to win the game. Matching the exact number of Drag Points needed makes you a winner!</p><br />
+			   				<p>Win or lose, the game resets and the player can continue playing. Easter eggs such as different Drag Race soundbites will play as the user progresses through the game.</p>
 			   				<br />
 			   				<p><a href="https://warm-wildwood-27556.herokuapp.com/select_path" target="_blank" className="center cyan-text">Deployed on Heroku, check it out!</a></p>
 			   				<br />
 			   				<div className="divider" style={style.divider}></div>
-					    		<p><i class="fas fa-wrench"></i> React JS, React Router, Node.js, Express, MySQL, Sequelize, Axios, React Charts, and Bootstrap.</p>
+					    		<p><i class="fas fa-wrench"></i> jQuery, Bootstrap.</p>
 					    	<br />
 			   				<div className="row" style={style.divider}>
 			   					<div className="col s12">
