@@ -73,7 +73,7 @@ const Main = () => (
 						<Route exact path="/" component={ProjectList} />
 						<Route exact path="/bright-kids-portal-v2" component={BKPortal} />
 						<Route path="/trivia-and-the-city" component={TriviaGame} />
-						<Route exact path="/drag-game" component={DragGame} />
+						<Route exact path="/drag-guessing-game" component={DragGame} />
 						<Route exact path="/queer-queries" component={ProjectList} />
 					</Switch>
 				</div>
