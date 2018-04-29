@@ -20,7 +20,7 @@ const DragGame = () => (
   		
   			<div className="card">
 
-  			 <div className="card-content center" style={{ background: '#d90141' }}>
+  			 <div className="card-content center purple lighten-2">
 		      <h5>Drag Game</h5>
 			   </div>
 			   <div className="divider"></div>
@@ -36,7 +36,7 @@ const DragGame = () => (
 			   				<p>This simple web application is built with jQuery. The game begins by displaying the target number of points that the player must match to win the game. There are four style items below, each worth a randomized amount of points. The player must select style items to accrue the right number of points needed to win the game.</p><br />
 			   				<p>Win or lose, the game resets and the player can continue playing. Easter eggs such as different Drag Race soundbites will play as the user progresses through the game.</p>
 			   				<br />
-			   				<p><a style={{ color: '#d90141' }} href="https://sjaved0327.github.io/drag-game/" target="_blank" className="center cyan-text">Deployed on Git Pages, check it out!</a></p>
+			   				<p><a href="https://sjaved0327.github.io/drag-game/" target="_blank" className="center purple-text">Deployed on Git Pages, check it out!</a></p>
 			   				<br />
 			   				<div className="divider" style={style.divider}></div>
 					    		<p><i class="fas fa-wrench"></i> jQuery, Bootstrap.</p>
