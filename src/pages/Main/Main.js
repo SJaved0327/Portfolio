@@ -6,6 +6,7 @@ import LovelyCard from '../../components/LovelyCard'
 import ProjectList from '../../components/ProjectList'
 import BKPortal from '../../components/BKPortal'
 import TriviaGame from '../../components/TriviaGame'
+import DragGame from '../../components/DragGame'
 import EduCard from '../../components/EduCard'
 
 
@@ -72,7 +73,7 @@ const Main = () => (
 						<Route exact path="/" component={ProjectList} />
 						<Route exact path="/bright-kids-portal-v2" component={BKPortal} />
 						<Route path="/trivia-and-the-city" component={TriviaGame} />
-						<Route exact path="/drag-guessing-game" component={ProjectList} />
+						<Route exact path="/drag-game" component={DragGame} />
 						<Route exact path="/queer-queries" component={ProjectList} />
 					</Switch>
 				</div>
