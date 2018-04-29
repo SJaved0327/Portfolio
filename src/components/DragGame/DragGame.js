@@ -21,7 +21,7 @@ const DragGame = () => (
   			<div className="card">
 
   			 <div className="card-content center purple lighten-2">
-		      <h5>Drag Game</h5>
+		      <h5>Drag Guessing Game</h5>
 			   </div>
 			   <div className="divider"></div>
 
@@ -44,25 +44,11 @@ const DragGame = () => (
 			   				<div className="row" style={style.divider}>
 			   					<div className="col s12">
 			   						<div className="card-image z-depth-1">
-						  				<img src="./ScreenShots/BKPortal_LandingPage_01.png
-							          " alt="Project 1" width="400px" />
+						  				<img src="./ScreenShots/DragRace_Overview.png
+							          " alt="screenshot of Drag Race Guessing Game" width="400px" />
 						        </div>
 			   					</div>
 			   				</div>
-					    	<div className="row" style={style.divider}>
-					    		<div className="col s6">
-							    	<div className="card-image z-depth-1">
-						  				<img src="./ScreenShots/BKPortal_SelectPath.png
-							          " alt="Project 1" width="400px" />
-						        </div>
-						      </div>
-						      <div className="col s6">
-						        <div className="card-image z-depth-1">
-						  				<img src="./ScreenShots/BKPortal_Evaluations.png
-							          " alt="Project 1" width="400px" />
-						        </div>
-						      </div>
-					    	</div>	
 					    
 			   			</div>
 			   			<div className="col s1 m1">
